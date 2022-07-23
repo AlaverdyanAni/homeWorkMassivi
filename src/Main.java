@@ -17,6 +17,7 @@ public class Main {
             }
         }
         System.out.println();
+
         for (int i = numbers.length - 1; i >= 0; i--) {
             if (i == 0) {
                 System.out.print(numbers[i]);
@@ -26,6 +27,7 @@ public class Main {
 
         }
         System.out.println();
+
         for (int i = 0; i < numbers.length; i++) {
             if (numbers[i] % 2 != 0) {
                 System.out.print(numbers[i] = numbers[i] + 1);
@@ -33,10 +35,7 @@ public class Main {
                 System.out.print("," + numbers[i] + ",");
             }
         }
-
-
             System.out.println();
-
 
             float[] length = {1.57f, 7.654f, 9.986f};
             System.out.println(Arrays.toString(length));
